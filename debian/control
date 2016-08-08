@@ -3,7 +3,7 @@ Section: net
 Priority: optional
 Maintainer: Dell <support@dell.com>
 Build-Depends:
- debhelper (>= 9), autotools-dev, libsonic-common-dev, sonic-nas-ndi-api-dev
+ debhelper (>= 9), autotools-dev, libsonic-common-dev, sonic-ndi-api-dev
 Standards-Version: 1.0.1
 
 Package: libsonic-nas-platform-vm1
