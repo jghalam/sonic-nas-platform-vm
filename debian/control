@@ -5,6 +5,8 @@ Maintainer: Dell <support@dell.com>
 Build-Depends:
  debhelper (>= 9), autotools-dev, libsonic-common-dev, sonic-ndi-api-dev
 Standards-Version: 1.0.1
+Vcs-Browser: https://github.com/Azure/sonic-nas-platform-vm
+Vcs-Git: https://github.com/Azure/sonic-nas-platform-vm.git
 
 Package: libsonic-nas-platform-vm1
 Provides: libsonic-nas-platform1
