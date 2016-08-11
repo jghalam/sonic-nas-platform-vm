@@ -3,11 +3,15 @@ Section: net
 Priority: optional
 Maintainer: Dell <support@dell.com>
 Build-Depends:
- debhelper (>= 9), autotools-dev, libsonic-common-dev, sonic-nas-ndi-api-dev
-Standards-Version: 1.0.1
+ debhelper (>= 9), autotools-dev, libsonic-common-dev, sonic-ndi-api-dev
+Standards-Version: 3.9.3
+Vcs-Browser: https://github.com/Azure/sonic-nas-platform-vm
+Vcs-Git: https://github.com/Azure/sonic-nas-platform-vm.git
 
 Package: libsonic-nas-platform-vm1
 Provides: libsonic-nas-platform1
+Conflicts: libsonic-nas-platform1
+Replaces: libsonic-nas-platform1
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: SONiC NAS platform for VM - shared library
