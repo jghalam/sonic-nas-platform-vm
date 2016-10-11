@@ -1,7 +1,7 @@
 SONiC NAS platform VM
 =====================
 
-VM (virtual machine) platform specific utilities for the SONiC project
+VM (virtual-machine) platform specific utilities for the SONiC project
 
 Description
 -----------
